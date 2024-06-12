@@ -1,6 +1,0 @@
-openai
-pypdf
-llama-index== 0.10.27
-streamlit-chat
-streamlit-extras
-
