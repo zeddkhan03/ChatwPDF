@@ -25,7 +25,7 @@ def ChatPDF(text):
 
     OPENAI_API_KEY = st.text_input("OPENAI API KEY", type = "password")
     if OPENAI_API_KEY:
-        embeddings = OpenAIEmbeddings(openai_api_key="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")
+        embeddings = OpenAIEmbeddings(openai_api_key=OPENAI_API_KEY)
         # st.write("Embedding Created")
         # st.write(embeddings)
         knowledge_base = FAISS.from_texts(chunks, embeddings)
