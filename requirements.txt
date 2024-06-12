@@ -1,6 +1,6 @@
 streamlit
+openai
 pandas
 python-docx
 PyPDF2
 langchain-community
-openai
